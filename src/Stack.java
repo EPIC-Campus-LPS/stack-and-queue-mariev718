@@ -5,6 +5,7 @@ public class Stack {
     // creates an array for the stack
     public int[] stack;
     // creates an integer to keep track of the size of stack
+
     public int size = 0;
 
     public Stack() {
