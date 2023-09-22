@@ -1,5 +1,11 @@
 import java.util.EmptyStackException;
 
+/**
+ * Class that acts like a stack using an array
+ *
+ * @author Marie Viita
+ * @version 1.0, 09/22/2023
+ */
 public class Stack {
 
     // creates an array for the stack
@@ -8,11 +14,18 @@ public class Stack {
 
     public int size = 0;
 
+    /**
+     * Constructor for the Stack class, creates a stack object
+     */
     public Stack() {
         // constructor, doesn't need any variables
     }
 
-
+    /**
+     * Adds a value to the top of the stack
+     *
+     * @param element takes the value to add to the top of the stack
+     */
     public void push(int element) {
 
         // if the stack is empty, makes the stack into a new array with one element
@@ -50,6 +63,11 @@ public class Stack {
 
     }
 
+    /**
+     * Returns and removes the element at the top of the stack
+     *
+     * @return the value of the element removed
+     */
     public int pop() {
 
         // if the array is empty, throws an exception
@@ -70,6 +88,11 @@ public class Stack {
 
     }
 
+    /**
+     * Returns the element at the top of the stack
+     *
+     * @return the value of the element at the top of the stack
+     */
     public int peek() {
 
         // throws an exception if the stack is empty
@@ -84,6 +107,11 @@ public class Stack {
 
     }
 
+    /**
+     * Returns the size of the stack
+     *
+     * @return size of stack
+     */
     public int size() {
 
         // returns the size of the stack
@@ -91,6 +119,11 @@ public class Stack {
 
     }
 
+    /**
+     * Returns true if stack is empty, false if not
+     *
+     * @return if stack is empty
+     */
     public boolean isEmpty() {
 
         // if the stack size is 0, returns true, else returns false
