@@ -33,10 +33,10 @@ Implement a stack and queue class using an array of integer values.
 
 ## Reflection Questions
 
-- What is the fundamental principle behind a stack?
-- In what situations would using a stack be beneficial?
-- What is the fundamental principle behind a queue?
-- In what situations would using a queue be beneficial?
+- What is the fundamental principle behind a stack? A stack creates a "stack" of elements. The new elements are added to the top, and when it is read, the item on top is read first.
+- In what situations would using a stack be beneficial? A stack would be helpful in web browsing history. The latest thing you viewed should be the fastest to get back to.
+- What is the fundamental principle behind a queue? A queue creates a coded queue. When an element is added, it is added to the end of the queue, and when items are read from it, items added earliest are read first.
+- In what situations would using a queue be beneficial? A queue would be beneficial when waiting in line for something online, like buying tickets. First come, first serve.
 
 ## Rubric
 
